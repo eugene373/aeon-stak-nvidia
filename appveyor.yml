@@ -61,10 +61,6 @@ before_build:
 
     cat C:\projects\aeon-stak-nvidia\aeon-stak-nvidia.vcxproj
 
-    cp C:\OpenSSL-Win64/lib/VC/libeay32MD.lib crypto.lib
-
-    cp C:\OpenSSL-Win64/lib/VC/ssleay32MD.lib ssl.lib
-
     curl -fsS -o libmicrohttpd.zip http://mirror.clarkson.edu/gnu/libmicrohttpd/libmicrohttpd-0.9.53-w32-bin.zip
 
     7z x libmicrohttpd.zip -aoa -olibmicro
